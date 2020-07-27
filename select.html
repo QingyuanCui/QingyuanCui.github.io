@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+        <meta charset="UTF-8">
+        <title></title>
+        <style type="text/css">
+            body{
+                margin:0;
+                padding:0;
+                text-align:center;
+            }
+            ul, li{
+                margin:0; 
+                padding:0;
+                font-style: normal;
+                list-style:none;
+            } 
+            #nav{
+                width:100%; 
+                height:60px; 
+                background:#00A2CA;
+                margin:0 auto;
+                overflow:hidden;
+            } 
+            #nav li{
+                display:inline-block;
+            } 
+            #nav li a{
+                display:inline-block;
+                padding:0 20px;
+                color:#FFF;
+                text-decoration:none;
+                font:17px/60px arial;
+            } 
+            #nav li a:hover{
+                background:#0095BB;
+            } 
+
+            #nav  li ul { 
+                position:absolute; 
+                display:none;
+            }
+            
+            #nav li ul li {
+                 display: block;
+            }
+            
+            #nav li ul li a {
+                background:#00A2CA;
+            }
+            
+            #nav li:hover ul{
+                display:block; 
+            }
+        </style>
+    </head>
+    <body>
+        <ul id="nav"> 
+            <li><a href="#">January</a>
+                <ul>
+                    <li><a href="https://qingyuancui.github.io/101">Jan 1st  </a></li>
+                    <li><a href="https://qingyuancui.github.io/108">Jan 8th  </a></li>
+                </ul>
+            </li>
+            <li><a href="#">February</a></li>
+            <li><a href="#">March</a></li> 
+            <li><a href="#">April</a></li> 
+            <li><a href="#">May</a>
+                <ul>
+                    <li><a href="https://qingyuancui.github.io/501">May 1st</a></li>
+                    <li><a href="https://qingyuancui.github.io/508">May 8th</a></li>
+                </ul>
+            </li>
+            <li><a href="#">June</a></li> 
+            <li><a href="#">July</a></li> 
+            <li><a href="#">August</a></li> 
+            <li><a href="#">Septemebr</a></li> 
+            <li><a href="#">Octomber</a></li> 
+            <li><a href="#">November</a></li> 
+            <li><a href="#">December</a></li> 
+        </ul>
+
+    </body>
+</html>
