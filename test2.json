@@ -26,8 +26,8 @@
     },
     {
       "name": "title",
-      "value": "U.S. edge curvature and COVID 19 cases",
-      "update": "hover ? hover.name + ' (' + hover.iata + ')' : 'U.S. edge curvature and COVID 19 cases'"
+      "value": "May 1st",
+      "update": "hover ? hover.name + ' (' + hover.iata + ')' : 'May 1st'"
     },
     {
       "name": "cell_stroke",
